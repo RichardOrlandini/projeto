@@ -23,9 +23,14 @@ public class GameObject {
     }
 
     @Override
-    public boolean equals(GameObject o){
-        this.x = o.x;
-        this.y = o.y;
+    public boolean equals(Object o){
+        var g = (GameObject) o;
+
+        if ( (this.x == g.x) (this.y == g.y ) ){
+            return false;
+        }
+
+
         return true;
     }
 

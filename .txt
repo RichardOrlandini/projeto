@@ -1,0 +1,7 @@
+player:
+
+direção em graus e o x e o y ou outra variavel
+
+
+posição e o x e y
+direção e a onde ele aponta;
